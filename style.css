@@ -3,9 +3,81 @@ html {
   width: 100%;
 }
 
-body {
-  text-align: center;
-  font-family: 'Arial';
-  background: azure;
+nav {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  font-family: "Source Sans 3";
+  overflow: hidden;
+  color: white;
+  align-items: center;
+  padding: 10px 20px;
+}
+ul.navigationbar {
+  display: flex;
+  list-style: none;
+}
+ul.navigationbar li {
+  margin-right: 20px;
+}
+ul.navigationbar li a:hover {
   color: purple;
+}
+ul.navigationbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+body {
+  background: azure;
+  text-align: center;
+}
+h1 {
+  font-family: "Caprasimo", serif;
+  color: purple;
+}
+p {
+  font-family: "Source Sans 3";
+  color: purple;
+}
+
+button {
+  background-color: pink;
+  border: 1px solid purple;
+  font-family: "Arial";
+  color: purple;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+button:hover {
+  background-color: white;
+  color: purple;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+img {
+  width: 70%;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  border-radius: 25px;
 }
