@@ -10,8 +10,8 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: pink;
-  font-family: "Source Sans 3";
+  background-color: #E40066;
+  font-family: "Work Sans";
   overflow: hidden;
   color: white;
   align-items: center;
@@ -25,7 +25,7 @@ ul.navigationbar li {
   margin-right: 20px;
 }
 ul.navigationbar li a:hover {
-  color: purple;
+  color: #60AFFF;
 }
 ul.navigationbar li a {
     text-decoration: none;
@@ -34,44 +34,40 @@ ul.navigationbar li a {
 }
 
 body {
-  background: azure;
+  background: white;
   text-align: center;
 }
 h1 {
-  font-family: "Caprasimo", serif;
-  color: purple;
+  font-family: "Work Sans", serif;
+  color: #E40066;
 }
 p {
-  font-family: "Source Sans 3";
-  color: purple;
+  font-family: "Work Sans";
+  color: #E40066;
 }
 
 button {
   background-color: pink;
   border: 1px solid purple;
-  font-family: "Arial";
+  font-family: "Work Sans";
   color: purple;
   transition-duration: 0.4s;
   border-radius: 4px;
   padding: 10px 10px;
 }
+
 button:hover {
   background-color: white;
   color: purple;
 }
 
-.caprasimo-regular {
-  font-family: "Caprasimo", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.source-sans-3-<uniquifier> {
-  font-family: "Source Sans 3", sans-serif;
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
 
 img {
   width: 70%;
@@ -80,4 +76,20 @@ img {
   padding-right: 10px;
   overflow: hidden;
   border-radius: 25px;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  float: left;
+  flex: 50%;
+  padding: 5px;
+  max-height: 100px;
+}
+
+#titlepage {
+  font-family: "Work Sans", serif;
+  color: #E40066;
+  text-decoration: none;
 }
