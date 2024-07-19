@@ -70,22 +70,32 @@ button:hover {
 
 
 img {
-  width: 70%;
-  height: auto;
-  padding-left: 10px;
+  height: 200px;
   padding-right: 10px;
   overflow: hidden;
   border-radius: 25px;
+  object-fit: cover;
+}
+
+.rowfood {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 200px 200px;
+  grid-gap: 10px;
+}
+.columnfood {
+  position: relative;
 }
 
 .row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
 }
+
 .column {
-  float: left;
-  flex: 50%;
-  padding: 5px;
-  max-height: 100px;
+  position: relative;
 }
 
 #titlepage {
